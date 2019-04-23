@@ -1,6 +1,7 @@
 $( document ).ready(function() {
     // Handler for .ready() called.
     console.log("ready")
+
     $("#js-shopping-list-form").on("submit", function(event) { 
     event.preventDefault()
     const userInput = $(this).find('#shopping-list-entry');
