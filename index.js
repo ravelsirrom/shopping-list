@@ -4,8 +4,8 @@ $( document ).ready(function() {
 
     $("#js-shopping-list-form").on("submit", function(event) { 
     event.preventDefault()
-    const userInput = $(this).find('#shopping-list-entry');
-    $("#shopping-list-entry").val();
+    const listItem = $(this).find('#shopping-list-entry').val();
+    $("#shopping-list-entry");
     
     $('.shopping-list').append(
       `<li>
